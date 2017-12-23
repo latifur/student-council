@@ -1,0 +1,13 @@
+
+/*This is for university Slider*/
+.ts-pt-partners__title {width:22%; float:left; font-size: 18px; color:#fff; opacity:.6; position: relative; line-height: 1.2;}
+.ts-pt-partners__title:after {content:''; position: absolute; bottom:-15px; left:0; width: 50px; height: 3px; background:#fff; }
+.ts-pt-partners__carousel-wrapper {width:100%;}
+.ts-pt-partners--y-title .ts-pt-partners__carousel-wrapper {width:78%; float:left;}
+.ts-pt-partners__carousel-item {float: left; height:60px; line-height: 60px; vertical-align: middle; text-align: center;}
+.ts-pt-partners__img {max-height: 60px; width:auto; -webkit-transform:translateY(100%); -ms-transform:translateY(100%); transform:translateY(100%); opacity:0; -webkit-transition: opacity 0.6s ease 0.1s, -webkit-transform 0.6s ease 0s; transition: opacity 0.6s ease 0.1s, transform 0.6s ease 0s; }
+.ts-pt--active-item .ts-pt-partners__img {-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0); opacity:1;}
+.ts-pt--active-item ~ .ts-pt--active-item .ts-pt-partners__img {-webkit-transition-delay:0.2s, 0.1s;transition-delay:0.2s, 0.1s;}
+.ts-pt--active-item ~ .ts-pt--active-item  ~ .ts-pt--active-item .ts-pt-partners__img {-webkit-transition-delay:0.3s, 0.2s;transition-delay:0.3s, 0.2s;}
+.ts-pt--active-item ~ .ts-pt--active-item ~ .ts-pt--active-item  ~ .ts-pt--active-item .ts-pt-partners__img {-webkit-transition-delay:0.4s, 0.3s;transition-delay:0.4s, 0.3s;}
+.ts-pt--active-item ~ .ts-pt--active-item ~ .ts-pt--active-item  ~ .ts-pt--active-item  ~ .ts-pt--active-item .ts-pt-partners__img {-webkit-transition-delay:0.5s, 0.4s;transition-delay:0.5s, 0.4s;}

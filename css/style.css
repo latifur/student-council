@@ -1,0 +1,185 @@
+nav li{
+	
+    transform:skewX(30deg);
+	transition: all .3s;
+}
+nav li a{
+	
+
+	transform:skewX(-30deg);
+	
+	
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover , .navbar-default .navbar-nav > .active > a:focus, .nav>li>a:hover{
+	background-color: transparent ;
+	color: #000;
+}
+.active >a{
+	color: #fff;
+}
+.active{
+	background-color: #8aa3cc;
+	
+	transition: all 0.3;
+
+}
+.nav li a:focus{
+	background-color: transparent;
+}
+nav li:hover{
+	box-shadow: 1px 7px 12px #888888;
+
+}
+.logo{
+	
+	position: relative;
+}
+.icon{
+	margin: 25px 25px 0;
+}
+.social li{
+	background-color: #3fa1da;
+	border-radius: 50%;
+	margin-left: 5px;
+	
+	
+}
+.social li:hover {
+	background-color: #000;
+	transition: all 0.5s;
+}
+.social li i{
+	color: #fff;
+	line-height: 1;
+	font-size: 15px;
+	
+	
+}
+.social li a{
+	padding: 7px 10px;;
+}
+.carousel-caption{
+	background: rgba(255, 255, 255, 0.6);
+	left: 0px;
+	bottom: 0px;
+	color: #000;
+}
+.navbar-toggle .icon-bar{
+	border: 1px solid #000;
+}
+
+#services{
+	
+	margin-top: 40px;
+}
+
+..thumbnail{
+	transition: all 0.4s;
+}
+.thumbnail:hover{
+	border: #7f99c5 1px solid;
+	box-shadow: 4px 4px 5px #7f99c5;
+	transition: all 0.4s;
+}
+.text-normal{
+	text-decoration: none;
+	transition: all 0.4s;
+}
+.text-normal:hover{
+	text-decoration: none;
+	
+	
+}
+footer{
+	background: #373737;
+	color: #fff;
+	padding: 40px 0px;
+	
+}
+
+/*about us css*/
+
+article{
+	margin: 30px 0;
+}
+.about-main{
+	overflow: hidden;
+		position: relative;
+		box-sizing: content-box;
+}
+.about-header h1{
+	text-align: center;
+}
+.about-img img{
+	 margin: 0 auto;
+	 opacity: 0.7;
+	
+}
+/*thumbnail slider*/
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -33.33%; }
+.onebyone-carosel .active.right { left: 33.33%; }
+.onebyone-carosel .next { left: 33.33%; }
+.onebyone-carosel .prev { left: -33.33%; }
+
+/*end css thumbnail slider*/
+
+/*career page*/
+.career{
+	padding-top: 20px;
+}
+
+@media (min-width: 981px){
+	.about-header h1{
+	padding: 160px 0px;
+}
+.about-img{
+	 transform:skewX(30deg);
+	 overflow: hidden;
+	 position: absolute;
+	 right: -212px;
+	
+}
+.about-img img{
+	margin-left: -14%;
+	 transform:skewX(-30deg);
+}
+}
+@media (max-width: 777px){
+	nav li{
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	.about-header h1{
+	padding:  0px;
+}
+	.social li{
+		
+		display: inline-block;
+	}
+	.navbar-right{
+		float: right;
+	}
+	
+	
+}
+
+@media (max-width: 600px){
+	.icon{
+	margin:0;
+	
+}
+	.carousel .carousel-caption{
+		display: none;
+	}
+	.social{
+		clear: both;
+		float: left;
+		width: 100%;
+		
+	}
+
+	
+}
+
